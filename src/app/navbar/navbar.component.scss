@@ -1,6 +1,8 @@
 .main-menu {
   background-color: #782DED;
   height: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .container {
@@ -8,7 +10,6 @@
 }
 
 .logo {
-    text-transform: uppercase;
     color: white;
     text-decoration: none;
 }
@@ -43,6 +44,7 @@
 
 .header-menu.show {
   display: block;
+  box-shadow: 0 15px 20px -15px rgb(63, 63, 63);
 }
 
 .header-menu {
