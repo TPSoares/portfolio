@@ -1,1 +1,17 @@
-<p>specialties works!</p>
+<div class="specialties">
+  <div class="container">
+    <div class="row">
+      <div class="content col-lg-4 col-sm-12" *ngFor="let specialty of specialties">
+        <div class="svg-icon">
+          <img [src]="specialty.svgPath" alt="" width="80" height="80">
+        </div>
+        <div class="specialty-title">
+          {{ specialty.title }}
+        </div>
+        <div class="specialty-description">
+          {{ specialty.description }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  width: 80%;
+}
+
+.contact-form label {
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  font-weight: 300;
+}
+
+.contact-form input, textarea {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.contact-form input:focus, textarea:focus {
+  box-shadow: none;
+  border: 2px solid #782DED;
+}
+
+.client-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-btn {
+  background-color: #9058eb;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+
+@media(min-width: 992px) {
+  .contact-form {
+    width: 60%;
+  }
+}
