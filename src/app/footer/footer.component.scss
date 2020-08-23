@@ -1,0 +1,35 @@
+.footer {
+  background-color: #782DED;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 80px;
+}
+
+.icons-reference {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  
+  a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dashed white;
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px 0;
+
+  img {
+    margin: 20px;
+  }
+}
+
+.copyright {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}

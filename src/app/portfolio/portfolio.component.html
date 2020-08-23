@@ -1,1 +1,16 @@
-<p>portfolio works!</p>
+<div class="portfolio">
+  <!-- Remove and post above each project -->
+  <hr class="separator">
+  <!-- Remove and post above each project -->
+  <div class="container">
+    <h1 class="title">Portfólio</h1>
+    <div class="projects" *ngIf="projects.length > 0; else noProjects"></div>
+
+    <ng-template #noProjects>
+      <h2 class="no-projects col-12">Não há projetos a serem apresentados.</h2>
+    </ng-template>
+  </div>
+  <!-- Remove and post above each project -->
+  <hr class="separator">
+  <!-- Remove and post above each project -->
+</div>
