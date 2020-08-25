@@ -1,6 +1,6 @@
-<app-navbar></app-navbar>
+<app-navbar (messageEvent)="ReceiveMessage($event)" id="navbar"></app-navbar>
 <app-presentation></app-presentation>
-<app-specialties></app-specialties>
-<app-portfolio></app-portfolio>
-<app-contact></app-contact>
-<app-footer></app-footer>
+<app-specialties id="specialties"></app-specialties>
+<app-portfolio id="portfolio"></app-portfolio>
+<app-contact id="contact"></app-contact>
+<app-footer ></app-footer>
